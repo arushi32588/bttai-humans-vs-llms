@@ -1,5 +1,11 @@
 # bttai-humans-vs-llms
 
+# Dataset
+
+How to use the dataset:
+from datasets import load_dataset
+ds = load_dataset("lmarena-ai/arena-human-preference-55k")
+
 # Project Overview
 What do humans ask LLMs? We will explore a popular benchmark of
 human-LLM dialogues, Chatbot Arena, to answer this question. We will use
