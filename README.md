@@ -111,13 +111,13 @@ Step 1: Prepare the Dataset
 Place the pre-processed embeddings in the dataset.py.
 Update the configuration file (config.json) with the correct path to the dataset and output directories.
 
-4. Training the Model
+# Training the Model
 Step 1: Run the Training Script
 python main.pynb --config config.json
 Step 2: Monitor the Logs
 The training script generates logs in the logs/ directory. Check the logs for details about model training progress.
 
-5. Evaluating Model Performance
+# Evaluating Model Performance
 Step 1: Generate Clusters
 Evaluate the printed clusters
 
