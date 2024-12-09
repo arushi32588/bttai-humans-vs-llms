@@ -82,7 +82,7 @@ Clusters with uncertain winners/losers
 
 # Individual Contributions
 
-K-Means Clustering: Arushi and My 
-BERTopic: Ishita
-UMap/T-SNE: Min and Tanvi
+- K-Means Clustering: Arushi and My 
+- BERTopic: Ishita
+- UMap/T-SNE: Min and Tanvi
   
