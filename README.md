@@ -56,6 +56,7 @@ Any particular topics where humans are less likely to pick a winner/loser?
 # Visualizations
 
 Clustering
+
 <img width="594" alt="Screenshot 2024-12-08 at 7 41 50 PM" src="https://github.com/user-attachments/assets/21d6acc9-e87c-4d67-934c-1c5789dcccc0">
 
 Clusters won by each model category
