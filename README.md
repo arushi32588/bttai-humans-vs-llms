@@ -89,3 +89,37 @@ Clusters with uncertain winners/losers
 - BERTopic: Ishita
 - UMap/T-SNE: Min and Tanvi
   
+# Prerequisites
+Install the following:
+Python 3.8 or above
+Git
+pip (Python package manager)
+Virtual environment manager (optional but recommended)
+
+# Clone the Repository:
+git clone https://github.com/arushi32588/bttai-humans-vs-llms
+cd bttai-humans-vs-llms
+
+# Installation Instructions
+Step 1: Set Up a Virtual Environment
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+
+# Setting Up the Project Locally
+Step 1: Prepare the Dataset
+Place the pre-processed embeddings in the dataset.py.
+Update the configuration file (config.json) with the correct path to the dataset and output directories.
+
+4. Training the Model
+Step 1: Run the Training Script
+python main.pynb --config config.json
+Step 2: Monitor the Logs
+The training script generates logs in the logs/ directory. Check the logs for details about model training progress.
+
+5. Evaluating Model Performance
+Step 1: Generate Clusters
+Evaluate the printed clusters
+
+Step 2: Visualize the Clusters
+Analyze the clustering visualization results 
