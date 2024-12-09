@@ -55,15 +55,33 @@ Any particular topics where humans are less likely to pick a winner/loser?
 
 # Visualizations
 
-
+Clustering
 <img width="594" alt="Screenshot 2024-12-08 at 7 41 50 PM" src="https://github.com/user-attachments/assets/21d6acc9-e87c-4d67-934c-1c5789dcccc0">
 
+Clusters won by each model category
+<img width="629" alt="Screenshot 2024-12-08 at 7 42 45 PM" src="https://github.com/user-attachments/assets/66a650fd-84b4-4e4b-8a68-d2e5bdebca25">
 
+Clusters with clear winners/losers
+<img width="646" alt="Screenshot 2024-12-08 at 7 43 09 PM" src="https://github.com/user-attachments/assets/ffbbc241-25ee-4a78-90fa-b2a8591499ff">
 
+Clusters with uncertain winners/losers
+<img width="627" alt="Screenshot 2024-12-08 at 7 43 30 PM" src="https://github.com/user-attachments/assets/fd973834-5835-43c9-82a0-ab79cc860bf1">
 
+# Potential Next Steps
 
+* Define the topic categories ahead of topic labeling 
+  - One prompt can contain multiple topic tags
+* Improve the accuracy of Topic Modeling
+  - Combine different approaches including Supervised/Unsupervised learning method
+  - BERTopic, K-means, Decision Tree, Neural Network 
+* Develop a method/framework to evaluate topic labeling
+  - Semantic similarity is more meaningful in lexical level rather than the text
+* LLM Routing 
+  - Based on the project’s win/lose/tie analysis, we can implement LLM Routing
 
+# Individual Contributions
 
-
-
+K-Means Clustering: Arushi and My 
+BERTopic: Ishita
+UMap/T-SNE: Min and Tanvi
   
